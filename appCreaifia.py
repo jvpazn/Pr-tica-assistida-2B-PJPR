@@ -26,7 +26,7 @@ model = train_model()
 
 st.title('AppIA - Previsão de Preço de Imóveis')
 
-st.markdown('Este é um AppIA treinado para prover preços de imóveis da cidade de Boston')
+st.markdown('Este é um AppIA treinado para prover preços de imóveis da cidade de Boston feito pela equipe da creAIfia, os integrantes sendo João paz, Davi gleristone, Juan Vila Nova Rojas Moreno, Matheus Luciano, Todos alunos do 2B do IFPE CJBG')
 
 st.subheader('Amostra dos dados - selecione os atributos da tabela')
 
