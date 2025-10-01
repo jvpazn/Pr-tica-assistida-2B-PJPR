@@ -10,7 +10,8 @@ def get_data():
 
 def train_model():
   data = get_data()
-  x = data.drop('MEDV', axis=1)
+  selected_features = ['CRIM', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'PTRATIO']
+  x = data[selected_features]
   y = data['MEDV']
   rf = RandomForestRegressor(random_state=42)
   rf.fit(x, y)
